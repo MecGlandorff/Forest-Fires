@@ -33,8 +33,9 @@ def svr(data):
 
     y_pred = svr.predict(X_test)
 
-    y_pred_orig = scaler_y.inverse_transform(y_pred)
-    y_test_orig = scaler_y.inverse_transform(y_test)
+    # Reshaped y to fix error while running SVR
+    y_pred_orig = scaler_y.inverse_transform(y_pred.reshape(-1, 1)).flatten()
+    y_test_orig = scaler_y.inverse_transform(y_test.reshape(-1, 1)).flatten()
 
     # Results MSE and R-squared
     mse = mean_squared_error(y_test_orig, y_pred_orig)
