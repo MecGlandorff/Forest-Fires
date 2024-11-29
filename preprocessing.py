@@ -26,3 +26,8 @@ def preprocess(data):
     data['day'] = data['day'].str.lower().map(day_mapping)
 
     return data
+
+def handle_missing_values(data):
+    
+    """ Handles missing values by filling them with column means, requires and returns pandas dataframe"""
+    return data.fillna(data.mean())
