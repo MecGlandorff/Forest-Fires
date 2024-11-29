@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 
 # Ignore folder & files
+algo_rfm.py
 data/
 # C extensions
 *.so
