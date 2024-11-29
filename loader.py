@@ -21,9 +21,9 @@ def load(path):
 
 
 
-### Test row for module 
-data = load("data/forestfires.csv")
-if data is not None:
-    print(data.head())  # Display the first few rows
-else:
-    print("Failed to load the dataset.")
+# ### Test row for module 
+# data = load("data/forestfires.csv")
+# if data is not None:
+#     print(data.head())  # Display the first few rows
+# else:
+#     print("Failed to load the dataset.")
