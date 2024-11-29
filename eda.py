@@ -31,6 +31,12 @@ def cor_heatmap(data):
 
     """ Heatmap of feature correlations """
     num_data = data.select_dtypes(include=['float64', 'int64'])
+
+    # Check if numeric data exists, did raises errors
+    if num_data.empty:
+        print("No numeric columns available for correlation.")
+        return
+    
     plt.figure(figsize=(12, 8))
     sns.heatmap(num_data.corr(), annot=True, fmt=".2f", cmap="coolwarm")
     plt.title("Correlation Matrix")
