@@ -30,4 +30,15 @@ def preprocess(data):
 def handle_missing_values(data):
     
     """ Handles missing values by filling them with column means, requires and returns pandas dataframe"""
+
     return data.fillna(data.mean())
+
+def scale_features(data, features):
+
+    """ Scales specific num values using minmax scaling.
+    Input: Data as dataframe and features as list of features that should be scales
+    Output: Dataframe with scaled values per features """
+    
+    scaler = MinMaxScaler()
+    data[features] = scaler.fit_transform(data[features])
+    return data
