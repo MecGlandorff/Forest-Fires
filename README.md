@@ -1,7 +1,3 @@
-To format your README with proper headers and styling, use Markdown syntax. Here's your content with large headers, subheaders, and proper formatting:
-
-markdown
-Copy code
 # Forest Fire Prediction with SVC
 A simple project predicting forest fires using Support Vector Classifier (SVC) and meteorological data.  
 Forest fires suck. This project uses machine learning to classify whether a fire will occur based on environmental factors like temperature, humidity, wind, and rainfall.
