@@ -40,7 +40,7 @@ Place forestfires.csv in the data directory.
 Run the Jupyter Notebook as if it is main.py, no need to do anything with the modules.
 
 ## License
-This project is mine coding wise, however, the data is from UCI Forest Fires Dataset, so a thanks to: Creative Commons Attribution 4.0 International (CC BY 4.0) license.
+This project is mine (the code), however, the data is from the UCI Forest Fires Dataset Library. So a thanks & data credits to: Creative Commons Attribution 4.0 International (CC BY 4.0) license.
 
 ## Acknowledgments
 Thanks to the UCI Machine Learning Repository and contributors for the dataset and libraries like Pandas, NumPy, and Scikit-learn & Creative Commons Attribution 4.0 International (CC BY 4.0) license.
