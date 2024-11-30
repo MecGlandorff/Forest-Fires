@@ -17,9 +17,9 @@ Forest fires suck. This project uses machine learning to classify whether a fire
 
 ## Install dependencies:
 
-bash
-Copy code
-pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
+
 Add the dataset:
 Place forestfires.csv in the data directory.
 
