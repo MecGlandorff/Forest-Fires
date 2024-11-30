@@ -1,5 +1,5 @@
 # Forest Fire Prediction with SVC
-A simple project predicting forest fires using Support Vector Classifier (SVC) and meteorological data.  
+A project predicting forest fires using Support Vector Classifier (SVC) and meteorological data.  
 
 
 ## Intro
