@@ -1,7 +1,5 @@
 Forest Fire Prediction with SVC
 A simple project predicting forest fires using Support Vector Classifier (SVC) and meteorological data.
-
-Overview
 Forest fires suck. This project uses machine learning to classify whether a fire will occur based on environmental factors like temperature, humidity, wind, and rainfall.
 
 Dataset
