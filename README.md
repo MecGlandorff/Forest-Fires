@@ -14,7 +14,7 @@ A project predicting forest fires using Support Vector Classifier (SVC) and mete
 | **Weighted Avg**  | 0.99      | 0.99   | 0.99     | 104     |                      |
 
 - **Mean Squared Error (MSE):** 0.9903846153846154
-- **False Negative Rate of class 1 (Fire predicted: no, fire actual: Yes): 0.02, 1 case in all the data. So just to make model perfect we will say this is arson ;).
+- **False Negative Rate of class 1 (Fire predicted: no, fire actual: Yes):** 0.02, 1 case in all the data. So just to make model perfect we will say this is arson ;).
 
 
 
