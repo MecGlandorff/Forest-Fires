@@ -17,8 +17,7 @@ Forest fires suck. This project uses machine learning to classify whether a fire
 | **Weighted Avg**  | 0.99      | 0.99   | 0.99     | 104     |                      |
 
 - **Mean Squared Error (MSE):** 0.9903846153846154
-- **False Negative Rate of class 1 (Fire predicted: no, fire actual: Yes):** 0.02, 1 case in all the data. So just to make model perfect we will say this is arson ;).
-
+- **False Negative Rate for Class 1 (Predicted: No Fire, Actual: Fire):** 0.02, corresponding to 1 case in the entire test dataset. To make the model "perfect," we could attribute this case to arson ;). However, in reality, this scenario warrants further investigation. The specific false negative case should be analyzed and tested on new data to determine if additional false negative cases arise.
 ## Dataset
 - **Source:** UCI Machine Learning Repository  
 - **Details:** Covers forest fire data from Montesinho, Portugal, including weather indices and burn areas.  
