@@ -31,11 +31,3 @@ This project is mine coding wise, however, the data is from UCI Forest Fires Dat
 
 ## Acknowledgments
 Thanks to the UCI Machine Learning Repository and contributors for the dataset and libraries like Pandas, NumPy, and Scikit-learn & Creative Commons Attribution 4.0 International (CC BY 4.0) license.
-
-markdown
-Copy code
-
-### Markdown Adjustments:
-- Used `#`, `##`, and bullet points for structure.
-- Inline code blocks (`main.py`, `pip install`) are enclosed with backticks.
-- Links are formatted in proper Markdown `[text](URL)`.
