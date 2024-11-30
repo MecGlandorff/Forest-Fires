@@ -2,14 +2,20 @@
 A project predicting forest fires using Support Vector Classifier (SVC) and meteorological data.  
 
 ## Results
-Model Performance Summary
-Metric	Precision	Recall	F1-Score	Support
-Class 0	0.98	1.00	0.99	51
-Class 1	1.00	0.98	0.99	53
-Accuracy			0.99	104
-Macro Avg	0.99	0.99	0.99	104
-Weighted Avg	0.99	0.99	0.99	104
-Mean Squared Error (MSE): 0.9903846153846154
+## Model Performance Summary
+
+| Metric           | Precision | Recall | F1-Score | Support | False negative Rate   |
+|-------------------|-----------|--------|----------|---------|----------------------|
+| **Class 0**       | 0.98      | 1.00   | 0.99     | 51      | 0.00                 |
+| **Class 1**       | 1.00      | 0.98   | 0.99     | 53      | 0.02                 |
+|                   |           |        |          |         |                      |
+| **Accuracy**      |           |        | 0.99     | 104     |                      |
+| **Macro Avg**     | 0.99      | 0.99   | 0.99     | 104     |                      |
+| **Weighted Avg**  | 0.99      | 0.99   | 0.99     | 104     |                      |
+
+- **Mean Squared Error (MSE):** 0.9903846153846154
+- **False Negative Rate of class 1 (Fire predicted: no, fire actual: Yes): 0.02, 1 case in all the data. So just to make model perfect we will say this is arson ;).
+
 
 
 ## Intro
